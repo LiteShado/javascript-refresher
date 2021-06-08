@@ -47,8 +47,62 @@
 // console.log(is_anagrams("rail safety", "fairy tales"))
 
 
+
+
+
+
 // write a function that takes an array and return sum of all elements//
 
-function sumArray(arr) {
-    let result = 0
-}
+// function sumArray(arr) {
+//     let result = 0;
+//     for(let i=0; i<arr.length; i++) {
+//         result = result + arr[i];
+//     }
+//     return result;
+// }
+// let arr = [2, 4, 5, 6]
+// console.log(sumArray([2, 4, 5, 6]));
+
+// function sumArray(arr) {
+//     let result = 0;
+//     arr.forEach((el) => {
+//         result += el;
+//     });
+//     return result;
+// }
+// console.log(sumArray)
+
+// function sumArray(arr) {
+//     return arr.reduce((sum, curr) => {
+//         return sum + curr;
+//     }, 0)
+// }
+// console.log(sumArray([1, 2, 3, 4]));
+
+
+//writing a function that takes a strings, return the number of word exists in the strings
+
+// function count(str) {
+//     let arr = str.split(" ");
+//     let result = [];
+//     for(let el of arr) {
+//         if(/[a-zA-Z0-9]+/.test(el)) {
+//             result.push(el);
+//         }
+//     }
+//     return result.length;
+// }
+// console.log(count("hey there buddy"));
+
+//write a function that takes a number(must be positive), and return the sum of all number
+
+
+
+
+// function confirm_ending(str, ch) {
+//     let reversed = str.split("").reverse();
+//     return reversed[0] === ch;
+//     console.log(reversed);
+// }
+
+// console.log(confirm_ending('hello', 'x'));
