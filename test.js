@@ -196,4 +196,99 @@ Title" Area of Circle
 // }
 // console.log(phnoeLookup("alpha"));
 
+// function checkEqual(a, b) {
+//     if(a === b) {
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// console.log(checkEqual(1, 2))
+
+
+// function checkSign(num) {
+//     return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
+// }
+
+// console.log(checkSign(0));
+
+
+// var catName = "Quicy";
+// var quote;
+
+// catName = "Beau";
+
+// function catTalk() {
+//     "use strict";
+
+//     catName = "Oliver";
+//     quote = catName + "says Meow";
+// }
+
+// console.log(catTalk())
+
+
+// function checkScope() {
+//     "use strict"
+
+//         var i = "function scope";
+//         if (true) {
+//             i = "block scope";
+//             console.log("Block scope i is: ", i)
+
+//         }
+//         console.log("Function scope i is: ", i);
+//         return i;
+// }
+
+// checkScope();
+
+
+// function printMany(str) {
+//     "use strict";
+
+//     const sentence = str + " is cool";
+
+//     for(var i = 0; i < str.length; i+=2) {
+//         console.log(sentence)
+//     }
+// }
+// printMany("This");
+
+
+// const s = [5,7,2];
+// function editPlace() {
+//     "use strict";
+
+//     s[0] = 2;
+//     s[1] = 5;
+//     s[2] = 7;
+// }
+// editPlace();
+// console.log(s);
+
+
+// function freeze() {
+//     "use strict";
+//     const MATH_CONSTANTS = {
+//         PI: 3.14
+//     };
+
+//     Object.freeze(MATH_CONSTANTS);
+//     try {
+//         MATH_CONSTANTS.PI = 99;
+//     } catch( ex ) {
+//         console.log(ex);
+//     }
+//     return MATH_CONSTANTS.PI;
+// }
+
+// const PI = freeze();
+
+// console.log(PI);
+
+
+// const magic = () => new Date();
+
 
