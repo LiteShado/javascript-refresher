@@ -2,6 +2,8 @@
 Title" Area of Circle
 */
 
+// const { QueryInterface } = require("sequelize/types");
+
 // function area(radius) {
 //     let area = 3.1416 * radius * radius;
 //     return area;
@@ -135,3 +137,63 @@ Title" Area of Circle
 //     return answer;
 // }
 //  console.log(seqSizes(5));
+
+
+// function abTest(a, b) {
+
+//     if (a < 0 || b < 0) {
+//         return undefined;
+//     }
+
+//     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+// }
+// console.log(abTest(-2, 2))
+
+
+// var count = 0;
+// function cc(card) {
+//     switch(card) {
+//         case 2:
+//         case 3:
+//         case 4:
+//         case 5:
+//         case 6:
+//                 count++;
+//                 break;
+//         case 10:
+//         case "J":
+//         case "Q":
+//         case "K":
+//         case "A":
+//                 count--;
+//                 break;
+//     }
+//     var holdbet = "Hold";
+
+//     if (count > 0) {
+//         holdbet = "Bet"
+//     }
+//     return count + " " + holdbet;
+// }
+
+// cc(2); cc(3); cc(7); cc(10); cc('A');
+// console.log(cc(4));
+
+
+// function phnoeLookup(val) {
+//     var result = "";
+
+//     var lookup = {
+//         "alpha" : "Adams",
+//         "bravo" : "Boston",
+//         "charlie" : "Chicago",
+//         "delta" : "Denver",
+//         "echo" : "Easy",
+//         "foxtraot" : "Frank",
+//     };
+//     result = lookup[val];
+//     return result;
+// }
+// console.log(phnoeLookup("alpha"));
+
+
