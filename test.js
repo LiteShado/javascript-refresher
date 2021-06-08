@@ -59,9 +59,79 @@ Title" Area of Circle
 
 */
 
-function min_max(n1, n2, n3) {
-    let min = n1<n2&&n1<n3 ? n1: n2<n1<n3 ? n2 : n3;
-    let max = n1>n2&&n1>n3 ? n1: n2>n1&&n2>n3 ? n2 : n3;
-    console.log("min=", min, "max=", max)
-}
-min_max(1, 2, 3)
+// function min_max(n1, n2, n3) {
+//     let min = n1<n2&&n1<n3 ? n1: n2<n1<n3 ? n2 : n3;
+//     let max = n1>n2&&n1>n3 ? n1: n2>n1&&n2>n3 ? n2 : n3;
+//     console.log("min=", min, "max=", max)
+// }
+// min_max(1, 2, 3)
+
+
+
+// function caseInSwitch(val) {
+//     var answer = "";
+
+//     switch(val) {
+//         case 1:
+//             answer = "alpha"
+//             break;
+//         case 2:
+//             answer = "omega"
+//             break;
+//         case 3:
+//             answer = "theta"
+//             break;
+//         case 4:
+//             answer = "gamma"
+//             break;
+
+//     }
+//     return answer;
+// }
+// console.log (caseInSwitch(4))
+
+// function caseInSwitch(val) {
+//     var answer = "";
+
+//     switch(val) {
+//         case 1:
+//             answer = "apple"
+//             break;
+//         case 2:
+//             answer = "bird"
+//             break;
+//         case 3:
+//             answer = "car"
+//             break;
+//         default:
+//             answer = "hey"
+//             break;
+
+//     }
+//     return answer;
+// }
+// console.log (caseInSwitch(3))
+
+
+// function seqSizes(val) {
+//     var answer = "";
+//     switch(val) {
+//         case 1:
+//         case 2:
+//         case 3:
+//             answer = "Low";
+//             break;
+//         case 4:
+//         case 5:
+//         case 6:
+//             answer = "Mid";
+//             break;
+//         case 7:
+//         case 8:
+//         case 9:
+//             answer = "High";
+//             break;
+//     }
+//     return answer;
+// }
+//  console.log(seqSizes(5));
