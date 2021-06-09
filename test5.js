@@ -60,3 +60,26 @@
 
 //word counter
 // write a function that takes one string and return the nummber of word that contains in the strings.
+
+
+// let str = "The quick brown fox jump over the lazy dog";
+
+// function wordCounter(str) {
+//     let arr = str.split(" ");
+//     return arr.length;
+// }
+// console.log(wordCounter(str));
+
+
+
+//sum numbers in a range. write a function that takes range of a number "9-11". return the sum of number in between of the range.
+
+// function sumInRange(range) {
+//     let sum = 0;
+//     let arr = range.split("-");
+//     for(let i=arr[0]; i<=arr[1]; i++) {
+//         sum += parseInt(i);
+//     }
+//     return sum
+// }
+// console.log(sumInRange("10-20"));
