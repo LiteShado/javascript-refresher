@@ -62,3 +62,35 @@
 // }
 // console.log(asc([1, 4, 2, 3]));
 
+//write a function that takes an array and returns the lowest sum of two elements of the array.
+
+// function lowest_sum(arr) {
+//     let asc_arr = arr.sort((a, b) => {
+//         return a-b;
+//     });
+//     console.log(asc_arr);
+// }
+// lowest_sum([3, 1, 5, 7, 4, 9]);
+
+
+//Highest sum of two array elements. write a function that takes an array and return the highest sum of two array elements.
+
+// function highest_sum(arr) {
+//     let desc_arr = arr.sort((a, b) => {
+//         return b -a;
+//     });
+//     return desc_arr[0] + desc_arr[1];
+// }
+// console.log(highest_sum([4, 2, 6, 3, 1]));
+
+// add one to number represented as array. write a function that takes an array, add one to the number represented as an array, and return the brand new array.
+
+function adder(arr) {
+    let num = parseInt(arr.join("")) + 1;
+    let result = num.toString().split("");
+    return result.map((el) => {
+        return parseInt(el);
+    })
+}
+
+console.log(adder([9,9,9]));
