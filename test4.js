@@ -85,12 +85,22 @@
 
 // add one to number represented as array. write a function that takes an array, add one to the number represented as an array, and return the brand new array.
 
-function adder(arr) {
-    let num = parseInt(arr.join("")) + 1;
-    let result = num.toString().split("");
-    return result.map((el) => {
-        return parseInt(el);
-    })
-}
+// function adder(arr) {
+//     let num = parseInt(arr.join("")) + 1;
+//     let result = num.toString().split("");
+//     return result.map((el) => {
+//         return parseInt(el);
+//     })
+// }
 
-console.log(adder([9,9,9]));
+// console.log(adder([9,9,9]));
+
+// function adder(arr) {
+//     let num = parseInt(arr.join("")) + 1;
+//     let result = num.toString().split("");
+//     return result.map((el) => {
+//         return parseInt(num.split(""))
+//     })
+// }
+
+// adder([9, 9, 9]);
