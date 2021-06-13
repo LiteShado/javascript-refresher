@@ -91,6 +91,7 @@
 
 //Summ all digits in a number. Given a number, write a function takes the number and return the sum of all the digits of the number.
 
+//method1
 // function adder(num) {
 //     let sum = 0;
 //     let arr = num.toString().split("");
@@ -105,3 +106,14 @@
 // }
 
 // console.log(adder(1234));
+
+//method2
+// function adder(num) {
+//     let sum = 0;
+//     let arr = num.toString().split("");
+//     arr.forEach((item) => {
+//         sum += parseInt(item);
+//     })
+//     return sum;
+// }
+// console.log(adder(1234))
