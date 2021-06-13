@@ -161,3 +161,12 @@
 //     return reversed;
 // }
 // console.log(reverse('hi'));
+
+//method 3
+
+// function reverse(str) {
+//     return str.split("").reduce((accum, current) => {
+//         return current + accum;
+//     }, '');
+// }
+// console.log(reverse("hello"));
