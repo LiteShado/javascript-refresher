@@ -89,16 +89,19 @@
 //  console.log
 
 
-// function sumInRange(range) {
-//     let sum = 0;
-//     let arr = range.split("-");
-//     for(let i=arr[0]; i<=arr[1]; i++) {
-//         sum += parseInt(i);
-//     }
-//     return sum
-// }
-// console.log(sumInRange("10-20"));
+//Summ all digits in a number. Given a number, write a function takes the number and return the sum of all the digits of the number.
 
-// let max = 3
-// for(let i=arr[0]; i<=arr[1]; i++) {
-//  console.log
+// function adder(num) {
+//     let sum = 0;
+//     let arr = num.toString().split("");
+//     // for(let i=0; i<arr.length; i++) {
+//     //     sum += parseInt(arr[i]);
+//     // }
+
+//     for(let el of arr) {
+//         sum += parseInt(el);
+//     }
+//     return sum;
+// }
+
+// console.log(adder(1234));
