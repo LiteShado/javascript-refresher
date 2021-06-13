@@ -117,3 +117,47 @@
 //     return sum;
 // }
 // console.log(adder(1234))
+
+//falsey bouncer
+//given an array. write a function that takes the array, temove all the falsy element from the array
+
+//method1
+// function bouncer(arr) {
+//     let result = [];
+//     for(let item of arr) {
+//         if(item) {
+//             result.push(item);
+//         }
+//     }
+//     return result;
+// }
+// console.log(bouncer([1, 2, 3, '', 0, false, null, undefined]))
+
+//method2
+// function bouncer(arr) {
+//     return arr.filter((item) => {
+//         return item;
+//     })
+// }
+// console.log(bouncer([1, 2, 3, '', 0, false, null, undefined]));
+
+// reverse a strings. given a strings, write a function that takes the strings make reverse of the strings, return the reverse strings.
+
+//method 1
+// function reverse(str) {
+//     let reversedStr = str.split("").reverse().join("");
+//     return reversedStr;
+// }
+// console.log(reverse('hello'));
+
+
+//method 2
+
+// function reverse(str) {
+//     let reversed = '';
+//     for(let i=0; i<str.length; i++) {
+//         reversed = str[i] + reversed;
+//     }
+//     return reversed;
+// }
+// console.log(reverse('hi'));
